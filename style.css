@@ -13,7 +13,7 @@ body {
 .parent {
 	width: 100%;
 	background-image: url("bg-desktop.png");
-	margin-top: 20%;
+	margin-top: 30%;
 	height: 400px;
 }
 
