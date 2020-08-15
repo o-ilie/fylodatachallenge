@@ -1,0 +1,123 @@
+body {
+	background-color: hsl(229, 57%, 11%);
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin: 0;
+}
+
+.parent {
+	width: 100%;
+	background-image: url("images/bg-desktop.png");
+	margin-top: 20%;
+	height: 400px;
+	position: relative;
+}
+
+#child1 {
+	width: 20%;
+	background-color: hsl(228, 56%, 26%);
+	padding: 30px;
+	border-radius: 5px 90px 5px 5px;
+	top: 30%;
+	left: 20%;
+	position: absolute;
+	z-index: 1;
+}
+
+.svg1 {
+	background-color:  hsl(229, 57%, 11%);
+	padding: 10px;
+	border-radius: 5px;
+	height: 20px;
+	float: left;
+	margin: 10px;
+	margin-bottom: 0;
+}
+
+svg {
+	margin-bottom: 10px;
+}
+
+
+#child2 {
+	width: 30%;
+	top: 36%;
+	right: 19%;
+	background-color: hsl(228, 56%, 26%);
+	height: auto;
+	border-radius: 5px;
+	padding: 20px 30px;
+	position: absolute;
+	z-index: 1;
+}
+#gradient {
+	height: 15%;
+	background-image: linear-gradient( to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%) 80%, #0f1b3d 20%);
+	border-radius: 5px;
+	border: 2px solid #0f1b3d;
+}
+
+
+.ball {
+    border-radius: 50%;
+    background-color: hsl(243, 100%, 93%);
+    height: 10px;
+    width: 10px;
+	margin-left: 78%;
+}
+
+.bubble {
+  background: white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  position: absolute;
+  color:  black;
+  width: 25%;
+  left: 60%;
+  top: -30%;
+}
+
+.bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 62%;
+    left: 79.5%;
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    border-right: 0;
+    margin-bottom: -62px;
+}
+
+#min {
+	float: left;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+#max{
+	float: right;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+h5 {
+	font-weight: 100;
+}
+strong {
+	font-weight: bold;
+}
+
+span{
+	font-weight: 700;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-size: 12px;
+	text-align: center;
+}
