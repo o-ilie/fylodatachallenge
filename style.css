@@ -9,7 +9,7 @@ body {
 .parent {
 	width: 100%;
 	background-image: url("bg-desktop.png");
-	margin-top: 40%;
+	margin-top: 25%;
 	height: 400px;
 	position: relative;
 }
